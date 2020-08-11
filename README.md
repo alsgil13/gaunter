@@ -7,12 +7,11 @@ O presente webservice é composto por 7 rotas GET responsáveis cada um por extr
 Todas a rotas devem receber o código númerico que identifica o grupo. Este código é encontrado no final das URLs dos espelhos dos Grupos de Pesquisa.
 <hr>
 <h5>Exemplo:</h5>
+Grupo de pesquisa em Paleoherpetologia
 
-> Grupo de pesquisa em Paleoherpetologia
+Endereço para acessar o espelho do Grupo: <a>dgp.cnpq.br/dgp/espelhogrupo/<b>2300081346727364</b></a>
 
-> Endereço para acessar o espelho do Grupo: <a>dgp.cnpq.br/dgp/espelhogrupo/<b>2300081346727364</b></a>
-
-> Neste caso o código que identifica o grupo é: 2300081346727364
+Neste caso o código que identifica o grupo é: 2300081346727364
 <hr>
 
 <h2>Rotas</h2>
