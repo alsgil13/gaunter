@@ -1,6 +1,6 @@
 ![Gaunter](img/gaunter-logo.png)
 
-Webservice que captura Informações de Espelhos de Grupos de Pesquisa do CNPq.
+Webcrawlewr que captura informações apartir de códigos de espelhos dos Grupos de Pesquisa cadastrados no Diretóriode Grupos de Pesquisa do CNPq.
 
 ><i>"Ele sempre concede exatamente aquilo que desejamos. Esse é o problema"</i>
 
