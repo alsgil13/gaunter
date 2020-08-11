@@ -45,7 +45,7 @@ def getEstudantes(url):
     return json.dumps(estudantes, ensure_ascii=False)    
 
 def getTecnicos(url):
-    tecnicos = "{'Técnicos' : ["
+    tecnicos = '{"Técnicos" : ['
     conteudo = requests.get(url)
     sopa = BeautifulSoup(conteudo.text, 'html.parser')
     rhdiv = sopa.find(id='idFormVisualizarGrupoPesquisa:j_idt295_data')
@@ -53,7 +53,7 @@ def getTecnicos(url):
     i = 0
     for td in rhdivtd:
         if(i%4==0):
-            tecnicos = tecnicos + "'" + td.contents[0] + "',"
+            tecnicos = tecnicos + '"' + td.contents[0] + '",'
             #tecnicos.append(td.contents[0])
         i+=1
     #retira última virgula
@@ -71,7 +71,7 @@ def getIdentificacao(url):
     nome = nomediv.find_all('h1')
     nome = nome[0].contents[0].strip()
     #começa a montagem do objeto literal    
-    info = '{"Identificação" : { "nome" : "' + nome + '" , '
+    info = '{"Identificação" : { "Nome" : "' + nome + '" , '
     #filtrando estruturas
     container = sopa.find(id='identificacao')
     l = container.find_all('label',class_='control-label')      #labels
