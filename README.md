@@ -1,4 +1,3 @@
-# Gaunter
 ![Gaunter](img/gaunter-logo.png)
 
 Webservice que captura Informações de Espelhos de Grupos de Pesquisa do CNPq.
