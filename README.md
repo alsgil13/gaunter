@@ -11,11 +11,10 @@ Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos G
 <h2>Requisitos</h2>
 <ul>
 <li><a href="https://www.python.org/">Python 3</a></li>
+<li><a href="https://docs.python.org/3/library/json.html">Json</a></li>
 <li><a href="https://requests.readthedocs.io/en/master/">Requests</a></li>
 <li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/">Beautifull Soup 4 </a></li>
 <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a></li>
-<li><a href="https://docs.python.org/3/library/json.html">Json</a></li>
-
 </ul>
 
 O presente webservice é composto por 7 rotas GET responsáveis cada um por extrair uma parte das informações constantes nos Espelhos dos Grupos de Pesquisa cadastrados no DGP. 
