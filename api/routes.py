@@ -3,9 +3,6 @@ import mrcrowler
 
 app =Flask("Gaunter")
 
-@app.route('/olamundo',methods=['GET'])
-def olaMundo():
-    return {'ola' : 'mundo'}
 
 
 @app.route('/getPesquisadores/<code>',methods=['GET'])
