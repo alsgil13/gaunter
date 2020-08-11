@@ -1,4 +1,6 @@
 # Gaunter
+![Gaunter](img/gaunter-logo.png)
+
 Webservice que captura Informações de Espelhos de Grupos de Pesquisa do CNPq.
 
 ><i>"Ele sempre concede exatamente aquilo que desejamos. Esse é o problema"</i>
