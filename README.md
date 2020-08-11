@@ -1,6 +1,11 @@
 # Gaunter
 Webservice que captura Informações de Espelhos de Grupos de Pesquisa do CNPq.
+
 ><i>"Ele sempre concede exatamente aquilo que desejamos. Esse é o problema"</i>
+
+![Espelho](img/EspelhoGrupo.gif)
+
+![Service](img/getIdGrupo.gif)
 
 O presente webservice é composto por 7 rotas GET responsáveis cada um por extrair uma parter das informações constantes nos espelhos dos Grupos de Pesquisa cadastrados no <a href="http://lattes.cnpq.br/web/dgp#">DGP</a>. 
 
@@ -9,7 +14,7 @@ Todas a rotas devem receber o código númerico que identifica o grupo. Este có
 <h5>Exemplo:</h5>
 Grupo de pesquisa em Paleoherpetologia
 
-Endereço para acessar o espelho do Grupo: <a>dgp.cnpq.br/dgp/espelhogrupo/<b>2300081346727364</b></a>
+Endereço para acessar o espelho do Grupo: <a href="dgp.cnpq.br/dgp/espelhogrupo/2300081346727364">dgp.cnpq.br/dgp/espelhogrupo/<b>2300081346727364</b></a>
 
 Neste caso o código que identifica o grupo é: 2300081346727364
 <hr>
