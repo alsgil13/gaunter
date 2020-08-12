@@ -4,23 +4,45 @@ Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos G
 
 ><i>"...ele sempre concede exatamente aquilo que desejamos, esse é o problema..."</i>
 
+A imagem abaixo mostra um exemplo de página espelho de um Grupo de Pesquisa do Diretório e Grupos de Pesquisa do CNPq.
+
 ![Espelho](img/EspelhoGrupo.gif)
 
-![Service](img/getIdGrupo.gif)
+Abaixo está ilustrado um exemplo do Gaunter coletando informações da mesma página ilustrada acima. O Gaunter atualmente é composto por 7 rotas GET responsáveis cada uma por extrair uma parte das informações constantes nos Espelhos dos Grupos de Pesquisa cadastrados no DGP. Na ilustração abaixo é feita uma requisiçõ que recebe informações de identificação do Grpu de Pesquisa
+
+![Service](img/getIdentificacao.gif)
 
 <h2>Requisitos</h2>
 <ul>
 <li><a href="https://www.python.org/">Python 3</a></li>
-<li><a href="https://docs.python.org/3/library/json.html">Json</a></li>
 <li><a href="https://requests.readthedocs.io/en/master/">Requests</a></li>
 <li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/">Beautifull Soup 4 </a></li>
 <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a></li>
 </ul>
+<h2>Instalação</h2>
+Certifique-se de ter o Python3 instalado na máquina bem como o gerenciador de pacotes do python PIP.
+<h3>Instale as dependências</h3>
 
-O presente webservice é composto por 7 rotas GET responsáveis cada um por extrair uma parte das informações constantes nos Espelhos dos Grupos de Pesquisa cadastrados no DGP. 
+```console
+$ pip install requests Flask beautifulsoup4
+```
+<h3>Faça o clone do repositório</h3>
 
-Todas a rotas devem receber o código númerico que identifica o grupo. Este código é encontrado no final das URLs dos espelhos dos Grupos de Pesquisa.
+```console
+$ git clone https://github.com/alsgil13/gaunter.git
+```
+
+<h3>Inicie o servidor</h3>
+
+```console
+$ python ~/Gaunter/api/routes.py
+```
+
 <hr>
+
+<h2>Utilização</h2>
+Todas a rotas devem receber o código númerico que identifica o grupo. Este código é encontrado no final das URLs dos espelhos dos Grupos de Pesquisa.
+
 <h5>Exemplo:</h5>
 Grupo de pesquisa em Paleoherpetologia
 
