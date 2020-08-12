@@ -72,7 +72,7 @@ Para acessarmos a rota que busca as informações de Identificação do Grupo de
 
 > [endereço.do.host]/getId/2300081346727364
 
-
+![GetIdPaleo](img/getIdPaleo.gif)
 # <h2 id="rotas">5. Rotas</h2>
 <h3>Pesquisadores</h3>
 
