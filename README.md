@@ -75,59 +75,7 @@ Para acessarmos a rota que busca as informações de Identificação do Grupo de
 
 ![GetIdPaleo](img/getIdPaleo.gif)
 # <h2 id="rotas">5. Rotas</h2>
-<h3>Pesquisadores</h3>
 
-> [host]/getPesquisadores/\<codigo>
-
-Retorna um Json com uma lista de todos os pesquisadores
-<h5>Exemplo:</h5>
-
-```json
-{
-    "Pesquisadores": [
-        "Nome Pesquisador 1",
-        "Nome Pesquisador 2",
-        "..."
-    ]
-}
-```
-![getPesquisadores](img/getPesquisadores.gif)
-
-<h3>Estudantes</h3>
-
-> [host]/getEstudantes/\<codigo>
-
-Retorna um Json com uma lista de todos os estudantes
-<h5>Exemplo:</h5>
-
-```json
-{
-    "Estudantes": [
-        "Nome Estudante 1",
-        "Nome Estudante 2",
-        "..."
-    ]
-}
-```
-
-![getEstudantes](img/getEstudantes.gif)
-<h3>Técnicos</h3>
-
-> [host]/getTecnicos/\<codigo>
-
-Retorna um Json com uma lista de todos os técnicos
-<h5>Exemplo:</h5>
-
-```json
-{
-    "Técnicos": [
-        "Nome Técnico 1",
-        "Nome Técnico 2",
-        "..."
-    ]
-}
-```
-![getTecnicos](img/getTecnicos.gif)
 <h3>Identificação</h3>
 
 > [host]/getId/\<codigo>
@@ -181,6 +129,60 @@ Retorna um Json com todas as informações de Endereço do Grupo
 }
 ```
 ![getEndereco](img/getEndereco.gif)
+
+<h3>Pesquisadores</h3>
+
+> [host]/getPesquisadores/\<codigo>
+
+Retorna um Json com uma lista de todos os pesquisadores
+<h5>Exemplo:</h5>
+
+```json
+{
+    "Pesquisadores": [
+        "Nome Pesquisador 1",
+        "Nome Pesquisador 2",
+        "..."
+    ]
+}
+```
+![getPesquisadores](img/getPesquisadores.gif)
+
+<h3>Estudantes</h3>
+
+> [host]/getEstudantes/\<codigo>
+
+Retorna um Json com uma lista de todos os estudantes
+<h5>Exemplo:</h5>
+
+```json
+{
+    "Estudantes": [
+        "Nome Estudante 1",
+        "Nome Estudante 2",
+        "..."
+    ]
+}
+```
+
+![getEstudantes](img/getEstudantes.gif)
+<h3>Técnicos</h3>
+
+> [host]/getTecnicos/\<codigo>
+
+Retorna um Json com uma lista de todos os técnicos
+<h5>Exemplo:</h5>
+
+```json
+{
+    "Técnicos": [
+        "Nome Técnico 1",
+        "Nome Técnico 2",
+        "..."
+    ]
+}
+```
+![getTecnicos](img/getTecnicos.gif)
 
 <h3>Linhas de Pesquisa</h3>
 
