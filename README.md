@@ -8,7 +8,7 @@ A imagem abaixo mostra um exemplo de página espelho de um Grupo de Pesquisa do 
 
 ![Espelho](img/EspelhoGrupo.gif)
 
-Abaixo está ilustrado um exemplo do Gaunter coletando informações da mesma página ilustrada acima. O Gaunter atualmente é composto por 7 rotas GET responsáveis cada uma por extrair uma parte das informações constantes nos Espelhos dos Grupos de Pesquisa cadastrados no DGP. Na ilustração abaixo é feita uma requisiçõ que recebe informações de identificação do Grpu de Pesquisa
+Abaixo está ilustrado um exemplo do Gaunter coletando informações da mesma página demonstrada acima. O Gaunter atualmente é composto por 7 rotas GET responsáveis cada uma por extrair uma parte das informações constantes nos Espelhos dos Grupos de Pesquisa cadastrados no DGP. Na ilustração abaixo é feita uma requisiçõ que recebe informações de identificação do Grpu de Pesquisa
 
 ![Service](img/getIdentificacao.gif)
 
