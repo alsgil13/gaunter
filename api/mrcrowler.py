@@ -80,8 +80,12 @@ def getIdentificacao(url):
     for x in range(len(l)):
         if(len(l[x].contents[0]) > 1):
             #verifica se tem mais de um líder, de acordo com a regras do CNPq pode ter no máximo 2
-            if(("Líder(es) do grupo" in l[x].contents[0]) and (len(c[x].contents) >= 8)):
-                info = info + '"' + (str(l[x].contents[0]).strip())[:-1] + '" : ["'  + str(c[x].contents[0]).strip() + '", "' + str(c[x].contents[8]).strip() + '"], '
+            if(('Líder(es) do grupo' in l[x].contents[0]) and (len(c[x].contents) >= 7)):
+                #verifica se tem botão do e-mail
+                if(len(c[x].contents) == 7):
+                    info = info + '"' + (str(l[x].contents[0]).strip())[:-1] + '" : ["'  + str(c[x].contents[0]).strip() + '", "' + str(c[x].contents[6]).strip() + '"], '
+                elif(len(c[x].contents) > 7):
+                    info = info + '"' + (str(l[x].contents[0]).strip())[:-1] + '" : ["'  + str(c[x].contents[0]).strip() + '", "' + str(c[x].contents[8]).strip() + '"], '
             else:
                 info = info + '"' + (str(l[x].contents[0]).strip())[:-1] + '" : "'  + str(c[x].contents[0]).strip() + '", '
     #remove a última virugla
@@ -155,4 +159,4 @@ def getInstParceiras(url):
 #print(getPesquisadores(fisica_rd))
 #print(getPesquisadores(lapsi))
 #print(getIdentificacao(lapsi))
-print(getInstParceiras(paleo))
+print(getIdentificacao(lapsi))
