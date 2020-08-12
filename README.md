@@ -20,7 +20,7 @@
 Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos Grupos de Pesquisa cadastrados no <a href="http://lattes.cnpq.br/web/dgp#">DGP - Diretório de Grupos de Pesquisa do CNPq.</a>
 
 
-A imagem abaixo mostra um exemplo de página espelho de um Grupo de Pesquisa do Diretório e Grupos de Pesquisa do CNPq.
+A imagem abaixo mostra um exemplo de página espelho de um Grupo de Pesquisa do Diretório de Grupos de Pesquisa do CNPq.
 
 ![Espelho](img/EspelhoGrupo.gif)
 
