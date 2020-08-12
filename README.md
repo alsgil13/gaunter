@@ -68,6 +68,7 @@ Retorna um Json com uma lista de todos os pesquisadores
     ]
 }
 ```
+![getPesquisadores](img/getPesquisadores.gif)
 
 <h3>Estudantes</h3>
 
@@ -86,6 +87,7 @@ Retorna um Json com uma lista de todos os estudantes
 }
 ```
 
+![getEstudantes](img/getEstudantes.gif)
 <h3>Técnicos</h3>
 
 > [host]/getTecnicos/\<codigo>
@@ -102,7 +104,7 @@ Retorna um Json com uma lista de todos os técnicos
     ]
 }
 ```
-
+![getTecnicos](img/getTecnicos.gif)
 <h3>Identificação</h3>
 
 > [host]/getId/\<codigo>
@@ -125,6 +127,8 @@ Retorna um Json com uma lista de todas as informações de Identificação
     }
 }
 ```
+
+![getId](img/getIdentificacao.gif)
 
 <h3>Endereço</h3>
 
@@ -153,6 +157,7 @@ Retorna um Json com uma lista de todas as informações de Endereço
     }
 }
 ```
+![getEndereco](img/getEndereco.gif)
 
 <h3>Linhas de Pesquisa</h3>
 
@@ -170,6 +175,7 @@ Retorna um Json com uma lista de Linhas de Pesquisa Cadastradas
     ]
 }
 ```
+![getLinhas](img/getLinhas.gif)
 
 <h3>Instituições Parceiras</h3>
 
@@ -188,3 +194,5 @@ Retorna um Json com uma lista de todas as Instituições Parceiras Cadastradas
     ]
 }
 ```
+
+![getParceiros](img/getParceiros.gif)
