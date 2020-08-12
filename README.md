@@ -2,7 +2,7 @@
 
 [Sobre](#sobre)
 
-#Sobre
+<h2 id="sobre">Sobre o Gaunter</h2>
 
 Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos Grupos de Pesquisa cadastrados no <a href="http://lattes.cnpq.br/web/dgp#">DGP - Diretório de Grupos de Pesquisa do CNPq.</a>
 
