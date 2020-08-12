@@ -2,9 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-lapsi = 'http://dgp.cnpq.br/dgp/espelhogrupo/9931131070811617'
-fisica_rd = 'http://dgp.cnpq.br/dgp/espelhogrupo/7548264580175587'
-paleo = 'http://dgp.cnpq.br/dgp/espelhogrupo/2300081346727364'
 
 def getPesquisadores(url):
     membros = '{"Pesquisadores" : ['
@@ -156,7 +153,3 @@ def getInstParceiras(url):
 
     return json.dumps(parsas, ensure_ascii=False)
 
-#print(getPesquisadores(fisica_rd))
-#print(getPesquisadores(lapsi))
-#print(getIdentificacao(lapsi))
-#print(getIdentificacao(lapsi))
