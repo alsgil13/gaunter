@@ -69,7 +69,7 @@ Endereço para acessar o espelho do Grupo: <a href="dgp.cnpq.br/dgp/espelhogrupo
 
 Neste caso o código que identifica o grupo é: 2300081346727364
 
-Para acessarmos a rota que busca as informações de Identificação do Grupo de Pesquisa em Paleoherpetologia devemos fazer uma solicitação GET para a seguinte rota:
+Para acessarmos a rota que busca as informações de Identificação do Grupo de Pesquisa em Paleoherpetologia devemos fazer uma requisição GET para a seguinte rota:
 
 > [endereço.do.host]/getId/2300081346727364
 
