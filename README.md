@@ -188,7 +188,7 @@ Retorna um Json com uma lista de todos os técnicos
 
 > [host]/getLinhas/\<codigo>
 
-Retorna um Json com uma lista de Linhas de Pesquisa Cadastradas
+Retorna um Json com uma lista de Linhas de Pesquisa cadastradas
 <h5>Exemplo:</h5>
 
 ```json
@@ -206,7 +206,7 @@ Retorna um Json com uma lista de Linhas de Pesquisa Cadastradas
 
 > [host]/getParceiros/\<codigo>
 
-Retorna um Json com uma lista de todas as Instituições Parceiras Cadastradas
+Retorna um Json com uma lista de todas as Instituições Parceiras cadastradas
 
 <h5>Exemplo:</h5>
 
