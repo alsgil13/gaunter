@@ -159,4 +159,4 @@ def getInstParceiras(url):
 #print(getPesquisadores(fisica_rd))
 #print(getPesquisadores(lapsi))
 #print(getIdentificacao(lapsi))
-print(getIdentificacao(lapsi))
+#print(getIdentificacao(lapsi))
