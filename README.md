@@ -2,6 +2,15 @@
 
 [Sobre](#sobre)
 
+[Requisitos](#requisitos)
+
+[Instalação](#install)
+
+[Utilização](#utilizacao)
+
+[Rotas](#rotas)
+
+
 <h2 id="sobre">Sobre o Gaunter</h2>
 
 Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos Grupos de Pesquisa cadastrados no <a href="http://lattes.cnpq.br/web/dgp#">DGP - Diretório de Grupos de Pesquisa do CNPq.</a>
@@ -16,14 +25,15 @@ Abaixo está ilustrado um exemplo do Gaunter coletando informações da mesma p�
 
 ![Service](img/getIdentificacao.gif)
 
-<h2>Requisitos</h2>
+<h2 id="requisitos">Requisitos</h2>
 <ul>
 <li><a href="https://www.python.org/">Python 3</a></li>
 <li><a href="https://requests.readthedocs.io/en/master/">Requests</a></li>
 <li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/">Beautifull Soup 4 </a></li>
 <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a></li>
 </ul>
-<h2>Instalação</h2>
+
+<h2 id="install">Instalação</h2>
 Certifique-se de ter o Python3 instalado na máquina bem como o gerenciador de pacotes do python PIP.
 <h3>Instale as dependências</h3>
 
@@ -44,7 +54,7 @@ $ python ~/Gaunter/api/routes.py
 
 <hr>
 
-<h2>Utilização</h2>
+<h2 id="utilizacao">Utilização</h2>
 Todas a rotas devem receber o código númerico que identifica o grupo. Este código é encontrado no final das URLs dos espelhos dos Grupos de Pesquisa.
 
 <h5>Exemplo:</h5>
@@ -55,7 +65,7 @@ Endereço para acessar o espelho do Grupo: <a href="dgp.cnpq.br/dgp/espelhogrupo
 Neste caso o código que identifica o grupo é: 2300081346727364
 <hr>
 
-<h2>Rotas:</h2>
+<h2 id="rotas">Rotas:</h2>
 <h3>Pesquisadores</h3>
 
 > [host]/getPesquisadores/\<codigo>
