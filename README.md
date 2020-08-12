@@ -37,7 +37,7 @@ Abaixo está ilustrado um exemplo do Gaunter coletando informações da mesma p�
 </ul>
 
 # <h2 id="install">3. Instalação</h2>
-Certifique-se de ter o Python3 instalado na máquina bem como o gerenciador de pacotes do python PIP.
+Certifique-se de ter o Python3 instalado na máquina bem como o gerenciador de pacotes do python <a href="https://pypi.org/project/pip/">pip</a>.
 <h3>Instale as dependências</h3>
 
 ```console
