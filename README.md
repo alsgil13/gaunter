@@ -1,5 +1,7 @@
 ![Gaunter](img/gaunter-logo.png)
 
+><i>"...ele sempre concede exatamente aquilo que desejamos, esse é o problema..."</i>
+
 # Conteúdo
 
 1. [Sobre o Gaunter](#sobre)
@@ -17,7 +19,6 @@
 
 Gaunter é um Web Scrapper que captura informações das páginas Espelhos dos Grupos de Pesquisa cadastrados no <a href="http://lattes.cnpq.br/web/dgp#">DGP - Diretório de Grupos de Pesquisa do CNPq.</a>
 
-><i>"...ele sempre concede exatamente aquilo que desejamos, esse é o problema..."</i>
 
 A imagem abaixo mostra um exemplo de página espelho de um Grupo de Pesquisa do Diretório e Grupos de Pesquisa do CNPq.
 
