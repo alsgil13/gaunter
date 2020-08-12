@@ -13,7 +13,6 @@ def getPesquisadores(url):
     for td in rhdivtd:
         if(i%4==0):
             membros = membros + '"' + td.contents[0] + '",'
-            #membros.append(td.contents[0])
         i+=1
     #retira última virgula
     membros = membros[:-1]
@@ -32,7 +31,6 @@ def getEstudantes(url):
     for td in rhdivtd:
         if(i%4==0):
             estudantes = estudantes + '"' + td.contents[0] + '",'
-            #estudantes.append(td.contents[0])
         i+=1
     #retira última virgula
     estudantes = estudantes[:-1]
@@ -51,7 +49,6 @@ def getTecnicos(url):
     for td in rhdivtd:
         if(i%4==0):
             tecnicos = tecnicos + '"' + td.contents[0] + '",'
-            #tecnicos.append(td.contents[0])
         i+=1
     #retira última virgula
     tecnicos = tecnicos[:-1]
@@ -124,7 +121,7 @@ def getLinhas(url):
     tdlist = tabledata.find_all('td')
     i = 0
     for td in tdlist:
-        if(i%4==0): #seleciona apenas o noem da linha de pesquisa
+        if(i%4==0): #seleciona apenas o nome da linha de pesquisa
             linhas = linhas + '"' + td.contents[0] + '",'
         i+=1
     #retira última virgula
@@ -143,7 +140,7 @@ def getInstParceiras(url):
     tdlist = tabledata.find_all('td')
     i = 0
     for td in tdlist:
-        if(i%4==0): #seleciona apenas o noem da linha de pesquisa
+        if(i%4==0): #seleciona apenas o nome da instituição parceira
             parsas = parsas + '"' + td.contents[0] + '",'
         i+=1
     #retira última virgula
