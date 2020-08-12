@@ -49,7 +49,7 @@ $ pip install requests Flask beautifulsoup4
 $ git clone https://github.com/alsgil13/gaunter.git
 ```
 
-<h3>Inicie o servidor</h3>
+<h3>Inicie o Gaunter</h3>
 
 ```console
 $ python ~/Gaunter/api/routes.py
